@@ -1,0 +1,77 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-2.1.4.js"> </script>
+<style>
+
+#bustable thead th {
+	color: blue;
+	background-color: white;
+	padding: 20px;
+}
+tr:nth-child(2n){
+	color: white;
+	background-color:blue;
+}
+tr:nth-child(2n+1){
+	color: white;
+	background-color:gray;
+}
+td {
+	text-align: center;
+	padding: 5px;
+}
+body {
+	font-family:sans-serif;
+	font-size: 14px;
+}
+</style>
+</head>
+<body>
+	<div id="bustable">
+		<table>
+		<thead> 
+			<tr>
+				<th colspan="5" align="center">Bus Arrivals</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>4</td>
+				<td>7</td>
+				<td>9</td>
+				<td>53</td>
+				<td>54</td>
+			</tr>
+			<tr>
+				<td>57</td>
+				<td>58</td>
+				<td>66</td>
+				<td>68</td>
+				<td>69</td>
+			</tr>
+			<tr>
+				<td>72</td>
+				<td>77</td>
+				<td>78</td>
+				<td>82</td>
+				<td>84</td>
+			</tr>			
+			<tr>
+				<td>85</td>
+				<td>87</td>
+				<td>90</td>
+				<td>91</td>
+				<td>93</td>
+			</tr>
+			<tr>
+				<td>105</td>
+				<td>600</td>
+				<td>601</td>
+				<td>612</td>
+				<td>641</td>
+			</tr>
+		</tbody>
+		</table>
+		<script src="./js/app.js"></script>
+</body>
+</html>
